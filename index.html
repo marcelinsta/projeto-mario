@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./imagem/favicon.ico" type="image/x-icon">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+     
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Super Mario Bros O filme</title>
+
+</head>
+<body>
+     <div class="fundo-video">
+        <video class="video" autoplay  loop  muted>
+            <source src="./src/video/WhatsApp Video 2023-01-19 at 12.25.08 (1).mp4" type="video/mp4">
+        </video>
+    </div> 
+    <header class="cabecalho">
+       <a>
+        <img class="logo" src="./imagem/logo-chapeu-mario.png" alt="logo chapéu mario">
+           </a>
+       <nav>
+        <ul class="menu"> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Detalhes</a></li>          
+        </ul>
+       </nav> 
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./imagem/titulo.png" alt="imagem título do filme ">
+            <p class="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quod reprehenderit corrupti, expedita nam ipsam et dignissimos suscipit natus facere cupiditate tenetur hic aut, molestias dolorem magnam quidem minima id!</p>
+            <button class="botao-trailer">veja o trailer</button>
+        </div>
+        <img class="mario" src="./imagem/super-mario-chars.png">
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerator; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-pictures" allowfullscreen></iframe>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
